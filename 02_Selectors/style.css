@@ -1,0 +1,23 @@
+ /* Element Selektor7*/
+ div{
+    background-color: lightgreen;
+    font-size: 15px;
+    font-size:2rem
+    
+}
+
+/*Klassenselector*/
+.subtitle{
+    background-color: blueviolet;
+    font-size: 50px;
+}
+
+/*Id Selector*/
+#header{
+    font-size: 100px;
+}
+
+#fatma{
+background-color: pink;
+    
+}

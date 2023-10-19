@@ -1,0 +1,60 @@
+.box{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+position: relative;
+background-color: blueviolet;
+border-radius: 20px;
+width: 400px;
+height: 300px;
+margin: 5px;
+}
+
+.box1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 20px;
+    }
+
+.nico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: black solid 2px;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+
+.container{
+    display:grid;
+    background-color: rgb(9, 12, 2);
+    height:60vh;
+    display: flex;
+    flex-direction: row;                    /*bei ("row") die Boxen stehen in der Reihe, bei ("contumn") untereinander*/
+    justify-content: space-between;                /*  ("center") horizontal zentrieren,*/    /* "space evenly" teilt es gleich mäßig auf, "space-between" */
+    align-items: center;                     /* zentriert es von der neben Achse*/
+}
+
+
+.fatma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    border: rgb(216, 19, 52) 6px solid;
+    border-radius: 20px;
+
+}

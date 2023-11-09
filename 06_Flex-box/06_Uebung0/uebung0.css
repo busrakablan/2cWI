@@ -1,0 +1,56 @@
+.wrapper {
+display: flex;
+align-items: center;
+justify-content: end;
+width: 100vw;
+height: 150px;
+background-color: yellow;
+
+}
+
+
+.box {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    background-color: green;
+
+}
+
+.bluebox {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    background-color: lightblue;
+
+
+}
+
+.wilkommen {
+    padding: 20px;
+    color: darkblue;
+}
+
+.list {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.redbox {
+    position: absolute;
+    background-color: brown;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 140px;
+}
+
+.purple {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    bottom: 0;
+    right: 0;
+}

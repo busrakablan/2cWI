@@ -7,10 +7,16 @@ console.log(randomNumber);
 let random = Math.floor(randomNumber);
 console.log(random);
 
+let randomNumber1 = Math.random() * 100 + 0 ;
+console.log(randomNumber1);
+
+let random1 = Math.floor(randomNumber1);
+console.log(random1);
+
 // Wenn die erste Zahl kleiner ist als die zweite UND die erste Zahl kleiner ist als 50
 // dann gib aus "Zahl 1 ist kleiner als Zahl 2 und Mini"
-let a = 2;
-let b = 4;
+let a = random;
+let b = random1;
 
 if ((a<b) && (a<50)) {
     console.log("Zahl 1 ist kleiner als Zahl 2 und Mini");
@@ -19,8 +25,7 @@ if ((a<b) && (a<50)) {
 
 // Wenn die erste Zahl kleiner ist als 30 oder die zweite Zahl kleiner ist als 30
 // dann gib aus "Eine der beiden ist kleiner als 30"
-a = 10;
-b = 5;
+
 
 if((a<30)|| (b<30)) {
     console.log("Eine der beiden ist kleiner als 30");

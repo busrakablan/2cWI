@@ -5,5 +5,9 @@
 //O O O O 
 
 //2. Versuche in einer for - Schleife (1-100) alle geraden Zahlen zu addieren (zwei Lösungswege ⇒ Zähler dahingehend verändern das er nur gerade Zahlen zählt und mit Modulo arbeiten.) 
-
+for (let index = 1; index < 100; index++) {
+    if(index%2 ==0)
+    console.log();
+    
+}
 

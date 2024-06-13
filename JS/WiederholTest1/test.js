@@ -22,8 +22,15 @@ const data2 = "Das Leben ist schön";
 let data2Asarray = data2.split("");
 console.log(data2Asarray);
 
-for (let i = 0; i > data2Asarray.length[i]; i--) {
+
+for (let i = 0; i > data2Asarray.length[i]; i-1) {
   console.log(data2Asarray[i]);
+}
+
+if (
+  data2Asarray[i]= "Das Leben ist schön"
+) {
+
 }
 
 //nnööhhccss
@@ -49,7 +56,7 @@ let amount1 = 0;
 
 for (let i = 0; i <= data3Asarray.length; i++) {
   if (
-    data2Asarray[i] == "a" ||
+    data3Asarray[i] == "a" ||
     data3Asarray[i] == "e" ||
     data3Asarray[i] == "ö"
   ) {
